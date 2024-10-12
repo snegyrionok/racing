@@ -281,7 +281,12 @@ document.body.addEventListener('keyup' , function (event) {
         }, 1000)  
     }
 } )
+const width = document.body.getBoundingClientRect().width
+// alert (width)
 
+if (width < 600) {
+    document.body.innerHTML = '<h1 class="mobile">Зайдіть з комп\'ютера </h1>'
+}
 
 
 

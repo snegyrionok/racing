@@ -2,6 +2,17 @@ body     {
     background: rgb(42, 173, 42);
 }
 
+@media screen and (max-width: 600px) {
+    body     {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+
 .car1   {
     width: 60px;
     position: absolute;
@@ -111,6 +122,12 @@ body     {
     border-radius: 10px;
     border: 1px solid #000;
     position: absolute;
+    display: flex;
+
+}
+
+.mobile {
+    text-align: center;
     display: flex;
 
 }
