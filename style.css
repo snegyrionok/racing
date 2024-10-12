@@ -1,0 +1,116 @@
+body     {
+    background: rgb(42, 173, 42);
+}
+
+.car1   {
+    width: 60px;
+    position: absolute;
+    left: 730px;
+    top: 522px;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+
+.doroga1 {
+    right: 200px;
+    position: absolute;
+} 
+.btc {
+    top: 120px;
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    left: 750px;
+}
+.btc1 {
+    top: 560px;
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    left: 890px;
+}
+.btc2 {
+    top: 560px;
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    left: 600px;
+}
+.btc3 {
+    top: 330px;
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    left: 1330px;
+}
+.btc4 {
+    top: 350px;
+    width: 40px;
+    z-index: 10;
+    position: absolute;
+    left: 230px;
+}
+
+
+.moneta {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablo {
+    top: 10px;
+    z-index: 10;
+    position: absolute;
+    left: 1330px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.result {
+    width:500px ;
+    left: 700px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.pochatok {
+    background: white;
+    position: absolute;
+    left: 720px;
+    top:10px ;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.timer {
+    background: white;
+    width:150px ;
+    right: 20px;
+    top:100px ;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+    position: absolute;
+    display: flex;
+
+}
